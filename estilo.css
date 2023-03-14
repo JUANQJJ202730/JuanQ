@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/**
+* Universal
+. Clases
+# Id
+nombre_etiqueta
+*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.fondoface {
+    width: 500px;
+    height: 250px;
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 32px;
+    margin: 20px 0 0 0;
+}
+
+.imgSlider{
+    width: 300px;
+    justify-content: start;
+    margin: -28px   ;
+}
+
+
+
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    justify-content:space-around;
+    padding: 150px 450px 150px;
+    background: #f0f2f5;
+    margin: 0 0 15px 0;
+}
+
+.imgTienda {
+    height: 41px;
+    justify-content: center;
+}
+
+.cajaUsuario {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #c5c5c5;
+    border: 10px;
+}
+
+.caja1U {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 17px 40px 9px 40px;
+    width: 260px;
+    background-color: #FAFAFA;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #c5c5c5;
+    margin: 0 0 5px 0;
+}
+
+.contenedorIn {
+    margin: 10px 0;
+    ;
+}
+
+#btnLogin {
+    width: 335px;
+    line-height: 25px;
+    padding: 10px 1px 9px 8px;
+    background-color: #1877f2;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    border: 0;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+.separadorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea {
+    background: #c5c5c5;
+    width: 300px;
+    height: 1px;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+.linkUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 20px 0 0;
+}
+
+#olvi{
+    text-decoration: none;
+    margin: 0;
+    color: #1877f2;
+    margin: 0 0 20px;
+    font-size: 14px;
+}
+.regi{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.linkUsuario a {
+    margin: 30px 0;
+}
+.linea2 {
+    margin-left: 20px;
+}
+
+.linkUsuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.linkUsuario a {
+    margin: 30px 0;
+}
+.imgdes{
+    justify-content: center;
+    align-items: center;
+}
+.marco{
+    border: 1px solid rgb(219, 219, 219);
+    padding: 15px 15px 0px;
+    margin: 0 15px 0;
+    border-radius: 3px;
+    align-items: center;
+    background-color: white;
+    
+}
+.regis{
+    font-size: 13px;
+    padding: 0px 30px 0px;
+    margin: 15px;
+    width: 270px;
+    align-items: center; 
+    justify-content: center;
+}
+.descar{
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px 10px;
+}
+.futer{
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 480px;
+    
+}
+.foter{
+    align-items: center;
+    justify-content: flex-start;
+    list-style:armenian;
+    justify-content: center;
+    color: #c5c5c5;  
+    justify-content: space-around;
+
+}
+#facelo{
+    font-size: 20px;
+}
+.futer{
+    font-size: 11px;
+    padding: 10px 8px 0;
+    display: flex;
+
+}
+.futer a{
+    text-decoration: none;
+    padding: 10px;
+    color: #8a8d91;
+}
+
+
+.cren{
+    width: 200px;
+    line-height: 27px;
+    padding: 8px 0;
+    background-color: #42b72a;
+    border-radius: 8px;
+    color: #FAFAFA;
+    font-weight: bold;
+    border: 0;
+    margin: 0 15px 30px 50px;
+    margin-left: 70px;
+    font-size: 17px;
+}
+.mas{
+    border: 1px solid #c5c5c5;
+    font-size: 20px;
+    padding: 0px 7px 1px 7px;
+    color: black;
+    margin: 0px 0px 10px 0px;
+}
+.linea3{
+    background: #c5c5c5;
+    width: 1150px;
+    height: 1px;
+    margin: 0px 0;
+    margin-left: 500px;
+}
+.caja4 a{
+    text-decoration: none;
+    padding: 5px 5px 5px;
+    color: #8a8d91;
+}
+.caja4{
+    display: flex;
+    padding: 0px 300px 0 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 12px;
+    align-items: center;
+    margin-left: 494px;
+}
+.metas{
+    color:#8a8d91;
+    margin: 8px;
+    font-size: 12px;
+    margin-left: 500px;
+}
+
+
+@media (max-width:1700px) {
+    .futer{
+        margin-left: 10px;
+    }
+    .linea3{
+        margin-left: 10px;
+    }
+    .caja4{
+        margin-left: 10px;
+    }
+    .flexbox1{
+        padding: 150px 45px 150px ;
+    }
+}
+@media (max-width:1180px) {
+    .linea3{
+        width: 800px;
+    }
+}
+@media (max-width:830px){
+    .linea3{
+        width: 500px;
+    }
+}
+@media (max-width:525px){
+    .linea3{
+        width: 200px;
+    }
+}
+
